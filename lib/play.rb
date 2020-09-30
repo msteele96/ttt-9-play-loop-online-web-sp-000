@@ -41,7 +41,7 @@ def play(board)
   do
     counter += 1
     turn(board)
-    if counter = 9
+    if counter == 9
       break
     end
   end
